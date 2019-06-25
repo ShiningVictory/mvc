@@ -1,0 +1,13 @@
+
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+repositories {
+	mavenCentral() 
+}
+dependencies {	
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.6.RELEASE'
+}
+
+mainClassName="mvc"
